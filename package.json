@@ -1,0 +1,26 @@
+{
+  "name": "blockblockchain",
+  "version": "1.0.0",
+  "description": "The block part of our blockchain.",
+  "main": "./src/block.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priqb/blockBlockChain.git"
+  },
+  "author": "priQB, noGju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priqb/blockBlockChain/issues"
+  },
+  "homepage": "https://github.com/priqb/blockBlockChain#readme",
+  "dependencies": {
+    "sha256": "^0.2.0",
+    "transactionblockchain": "1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
